@@ -1,17 +1,21 @@
-[uDD::Log][2022-06-07 16:25:34] Start
-[uDD::Log][2022-06-07 16:25:34] OS Version    : 10.0
-[uDD::Log][2022-06-07 16:25:34] Build Number  : 19044
-[uDD::Log][2022-06-07 16:25:34] Service Pack  : 
-[uDD::Log][2022-06-07 16:25:34] Graphics Card [0] : AMD Radeon(TM) Graphics
-[uDD::Log][2022-06-07 16:25:34]   > Monitor[0] : \\.\DISPLAY1
-[uDD::Log][2022-06-07 16:25:34] Graphics Card [1] : Microsoft Basic Render Driver
-[uDD::Log][2022-06-07 16:25:34] Monitor::Initialized() =>
-[uDD::Log][2022-06-07 16:25:34]     ID    : 0
-[uDD::Log][2022-06-07 16:25:34]     Size  : (1920, 1080)
-[uDD::Log][2022-06-07 16:25:34]     DPI   : (157, 157)
-[uDD::Log][2022-06-07 16:25:34]     Rot   : Landscape
-[uDD::Log][2022-06-07 16:25:34] Duplicator::Initialize() => OK.
-[uDD::Log][2022-06-07 16:31:32] Duplicator::UpdateMoveRects() => DXGI_ERROR_ACCESS_LOST.
-[uDD::Log][2022-06-07 16:31:32] Duplicator::UpdateDirtyRects() => DXGI_ERROR_ACCESS_LOST.
-[uDD::Log][2022-06-07 16:31:32] Duplicator::Duplicate() => DXGI_ERROR_ACCESS_LOST.
-[uDD::Err][2022-06-07 16:31:32] Duplicator::Duplicate() => DXGI_ERROR_INVALID_CALL.
+[uDD::Log][2022-06-10 11:48:01] Start
+[uDD::Log][2022-06-10 11:48:01] OS Version    : 10.0
+[uDD::Log][2022-06-10 11:48:01] Build Number  : 19044
+[uDD::Log][2022-06-10 11:48:01] Service Pack  : 
+[uDD::Log][2022-06-10 11:48:01] Graphics Card [0] : NVIDIA GeForce GTX 1070
+[uDD::Log][2022-06-10 11:48:01]   > Monitor[0] : \\.\DISPLAY2
+[uDD::Log][2022-06-10 11:48:01]   > Monitor[1] : \\.\DISPLAY1
+[uDD::Log][2022-06-10 11:48:01] Graphics Card [1] : Microsoft Basic Render Driver
+[uDD::Log][2022-06-10 11:48:01] Monitor::Initialized() =>
+[uDD::Log][2022-06-10 11:48:01]     ID    : 0
+[uDD::Log][2022-06-10 11:48:01]     Size  : (1920, 1080)
+[uDD::Log][2022-06-10 11:48:01]     DPI   : (92, 92)
+[uDD::Log][2022-06-10 11:48:01]     Rot   : Landscape
+[uDD::Log][2022-06-10 11:48:02] Duplicator::Initialize() => OK.
+[uDD::Log][2022-06-10 11:48:02] Monitor::Initialized() =>
+[uDD::Log][2022-06-10 11:48:02]     ID    : 1
+[uDD::Log][2022-06-10 11:48:02]     Size  : (1920, 1080)
+[uDD::Log][2022-06-10 11:48:02]     DPI   : (102, 102)
+[uDD::Log][2022-06-10 11:48:02]     Rot   : Landscape
+[uDD::Log][2022-06-10 11:48:02] Duplicator::Initialize() => OK.
+[uDD::Log][2022-06-10 11:48:29] Stop
