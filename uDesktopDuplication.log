@@ -1,21 +1,21 @@
-[uDD::Log][2022-06-17 11:13:07] Start
-[uDD::Log][2022-06-17 11:13:07] OS Version    : 10.0
-[uDD::Log][2022-06-17 11:13:07] Build Number  : 19044
-[uDD::Log][2022-06-17 11:13:07] Service Pack  : 
-[uDD::Log][2022-06-17 11:13:07] Graphics Card [0] : NVIDIA GeForce GTX 1070
-[uDD::Log][2022-06-17 11:13:07]   > Monitor[0] : \\.\DISPLAY2
-[uDD::Log][2022-06-17 11:13:07]   > Monitor[1] : \\.\DISPLAY1
-[uDD::Log][2022-06-17 11:13:07] Graphics Card [1] : Microsoft Basic Render Driver
-[uDD::Log][2022-06-17 11:13:07] Monitor::Initialized() =>
-[uDD::Log][2022-06-17 11:13:07]     ID    : 0
-[uDD::Log][2022-06-17 11:13:07]     Size  : (1920, 1080)
-[uDD::Log][2022-06-17 11:13:07]     DPI   : (92, 92)
-[uDD::Log][2022-06-17 11:13:07]     Rot   : Landscape
-[uDD::Log][2022-06-17 11:13:07] Duplicator::Initialize() => OK.
-[uDD::Log][2022-06-17 11:13:07] Monitor::Initialized() =>
-[uDD::Log][2022-06-17 11:13:07]     ID    : 1
-[uDD::Log][2022-06-17 11:13:07]     Size  : (1920, 1080)
-[uDD::Log][2022-06-17 11:13:07]     DPI   : (102, 102)
-[uDD::Log][2022-06-17 11:13:07]     Rot   : Landscape
-[uDD::Log][2022-06-17 11:13:07] Duplicator::Initialize() => OK.
-[uDD::Log][2022-06-17 11:16:20] Stop
+[uDD::Log][2022-06-17 14:18:33] Start
+[uDD::Log][2022-06-17 14:18:33] OS Version    : 10.0
+[uDD::Log][2022-06-17 14:18:33] Build Number  : 19044
+[uDD::Log][2022-06-17 14:18:33] Service Pack  : 
+[uDD::Log][2022-06-17 14:18:33] Graphics Card [0] : NVIDIA GeForce GTX 1070
+[uDD::Log][2022-06-17 14:18:33]   > Monitor[0] : \\.\DISPLAY2
+[uDD::Log][2022-06-17 14:18:33]   > Monitor[1] : \\.\DISPLAY1
+[uDD::Log][2022-06-17 14:18:33] Graphics Card [1] : Microsoft Basic Render Driver
+[uDD::Log][2022-06-17 14:18:33] Monitor::Initialized() =>
+[uDD::Log][2022-06-17 14:18:33]     ID    : 0
+[uDD::Log][2022-06-17 14:18:33]     Size  : (1920, 1080)
+[uDD::Log][2022-06-17 14:18:33]     DPI   : (92, 92)
+[uDD::Log][2022-06-17 14:18:33]     Rot   : Landscape
+[uDD::Log][2022-06-17 14:18:33] Duplicator::Initialize() => OK.
+[uDD::Log][2022-06-17 14:18:33] Monitor::Initialized() =>
+[uDD::Log][2022-06-17 14:18:33]     ID    : 1
+[uDD::Log][2022-06-17 14:18:33]     Size  : (1920, 1080)
+[uDD::Log][2022-06-17 14:18:33]     DPI   : (102, 102)
+[uDD::Log][2022-06-17 14:18:33]     Rot   : Landscape
+[uDD::Log][2022-06-17 14:18:33] Duplicator::Initialize() => OK.
+[uDD::Log][2022-06-17 14:19:00] Stop
