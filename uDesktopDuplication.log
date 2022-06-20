@@ -1,21 +1,14 @@
-[uDD::Log][2022-06-20 16:45:01] Start
-[uDD::Log][2022-06-20 16:45:01] OS Version    : 10.0
-[uDD::Log][2022-06-20 16:45:01] Build Number  : 19044
-[uDD::Log][2022-06-20 16:45:01] Service Pack  : 
-[uDD::Log][2022-06-20 16:45:01] Graphics Card [0] : NVIDIA GeForce GTX 1070
-[uDD::Log][2022-06-20 16:45:01]   > Monitor[0] : \\.\DISPLAY2
-[uDD::Log][2022-06-20 16:45:01]   > Monitor[1] : \\.\DISPLAY1
-[uDD::Log][2022-06-20 16:45:01] Graphics Card [1] : Microsoft Basic Render Driver
-[uDD::Log][2022-06-20 16:45:01] Monitor::Initialized() =>
-[uDD::Log][2022-06-20 16:45:01]     ID    : 0
-[uDD::Log][2022-06-20 16:45:01]     Size  : (1920, 1080)
-[uDD::Log][2022-06-20 16:45:01]     DPI   : (92, 92)
-[uDD::Log][2022-06-20 16:45:01]     Rot   : Landscape
-[uDD::Log][2022-06-20 16:45:01] Duplicator::Initialize() => OK.
-[uDD::Log][2022-06-20 16:45:01] Monitor::Initialized() =>
-[uDD::Log][2022-06-20 16:45:01]     ID    : 1
-[uDD::Log][2022-06-20 16:45:01]     Size  : (1920, 1080)
-[uDD::Log][2022-06-20 16:45:01]     DPI   : (102, 102)
-[uDD::Log][2022-06-20 16:45:01]     Rot   : Landscape
-[uDD::Log][2022-06-20 16:45:01] Duplicator::Initialize() => OK.
-[uDD::Log][2022-06-20 16:45:44] Stop
+[uDD::Log][2022-06-20 16:57:46] Start
+[uDD::Log][2022-06-20 16:57:46] OS Version    : 10.0
+[uDD::Log][2022-06-20 16:57:46] Build Number  : 19044
+[uDD::Log][2022-06-20 16:57:46] Service Pack  : 
+[uDD::Log][2022-06-20 16:57:46] Graphics Card [0] : AMD Radeon(TM) Graphics
+[uDD::Log][2022-06-20 16:57:46]   > Monitor[0] : \\.\DISPLAY1
+[uDD::Log][2022-06-20 16:57:46] Graphics Card [1] : Microsoft Basic Render Driver
+[uDD::Log][2022-06-20 16:57:46] Monitor::Initialized() =>
+[uDD::Log][2022-06-20 16:57:46]     ID    : 0
+[uDD::Log][2022-06-20 16:57:46]     Size  : (1920, 1080)
+[uDD::Log][2022-06-20 16:57:46]     DPI   : (157, 157)
+[uDD::Log][2022-06-20 16:57:46]     Rot   : Landscape
+[uDD::Log][2022-06-20 16:57:46] Duplicator::Initialize() => OK.
+[uDD::Log][2022-06-20 16:58:11] Stop
