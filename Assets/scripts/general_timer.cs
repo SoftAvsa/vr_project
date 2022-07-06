@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class general_timer : MonoBehaviour
 {
     public InputActionReference toggleReference = null;
+    public bool isActive = false;
 
     // Start is called before the first frame update
     private void Awake()
@@ -21,7 +23,7 @@ public class general_timer : MonoBehaviour
 
     private void Toggle(InputAction.CallbackContext context)
     {
-        bool isActive = !gameObject.activeSelf;
-        gameObject.SetActive(isActive);
+        isActive = !isActive;
+        gameObject.GetComponent<Image>().enabled = isActive;
     }
 }
