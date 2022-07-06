@@ -15,6 +15,7 @@ public class general_timer : MonoBehaviour
     private float timer = 0;
     private bool wasActive = false;
     public bool lookAtScreen = false;
+    private float screenTimer = 0;
 
     private void Awake()
     {
@@ -31,10 +32,10 @@ public class general_timer : MonoBehaviour
         if (isActive)
         {
             timer += Time.deltaTime;
-        }
-        if (lookAtScreen)
-        {
-            Debug.Log("am lookin respectfully");
+            if (lookAtScreen)
+            {
+                screenTimer += Time.deltaTime;
+            }
         }
     }
 
@@ -55,8 +56,9 @@ public class general_timer : MonoBehaviour
             if (!File.Exists(docName))
             {
                 File.WriteAllText(docName, "Experiment Results \n");
-                File.AppendAllText(docName, scene.name + "\n");
-                File.AppendAllText(docName, timer + "\n");
+                File.AppendAllText(docName, "Scene: " + scene.name + "\n");
+                File.AppendAllText(docName, "Total time: " + timer + "\n");
+                File.AppendAllText(docName, "Focused time: " + screenTimer);
             }
 
         }
