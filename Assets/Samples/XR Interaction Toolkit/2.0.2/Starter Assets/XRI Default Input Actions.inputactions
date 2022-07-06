@@ -1092,7 +1092,7 @@
                 {
                     "name": "",
                     "id": "3714424c-dea8-40f4-9d2f-6a1ca8533d9a",
-                    "path": "<OpenVROculusTouchController>/triggerPressed",
+                    "path": "<OculusTouchController>/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
