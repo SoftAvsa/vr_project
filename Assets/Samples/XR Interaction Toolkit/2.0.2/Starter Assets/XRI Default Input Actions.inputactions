@@ -1073,6 +1073,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "StartStop",
+            "id": "63c1c1e9-1589-4bda-9dab-dd7d77b32d59",
+            "actions": [
+                {
+                    "name": "Toggle",
+                    "type": "Button",
+                    "id": "371090af-2446-49c8-9bc9-cd785cd2d8d3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3714424c-dea8-40f4-9d2f-6a1ca8533d9a",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
