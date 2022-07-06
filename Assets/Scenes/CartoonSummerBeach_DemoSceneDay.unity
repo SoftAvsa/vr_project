@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.27086678, g: 0.5000581, b: 0.89092255, a: 1}
+  m_IndirectSpecularColor: {r: 0.2717454, g: 0.5021133, b: 0.8873029, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -12226,8 +12226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toggleReference: {fileID: 6199373450882585870, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   isActive: 0
-  timer: 0
-  wasActive: 0
+  lookAtScreen: 0
 --- !u!114 &503762377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38308,10 +38307,34 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 503762376}
+        m_TargetAssemblyTypeName: general_timer, Assembly-CSharp
+        m_MethodName: SetLookFlag
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 503762376}
+        m_TargetAssemblyTypeName: general_timer, Assembly-CSharp
+        m_MethodName: RemoveLookFlag
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls: []

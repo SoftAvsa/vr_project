@@ -12,10 +12,9 @@ public class general_timer : MonoBehaviour
 {
     public InputActionReference toggleReference = null;
     public bool isActive = false;
-    [HideInInspector]
-    public float timer = 0;
-    [HideInInspector]
-    public bool wasActive = false;
+    private float timer = 0;
+    private bool wasActive = false;
+    public bool lookAtScreen = false;
 
     private void Awake()
     {
@@ -32,7 +31,10 @@ public class general_timer : MonoBehaviour
         if (isActive)
         {
             timer += Time.deltaTime;
-            Debug.Log(timer);
+        }
+        if (lookAtScreen)
+        {
+            Debug.Log("am lookin respectfully");
         }
     }
 
@@ -59,5 +61,15 @@ public class general_timer : MonoBehaviour
 
         }
         wasActive = !wasActive;
+    }
+
+    public void SetLookFlag()
+    {
+        lookAtScreen = true;
+    }
+
+    public void RemoveLookFlag()
+    {
+        lookAtScreen = false;
     }
 }
