@@ -1,14 +1,14 @@
-[uDD::Log][2022-07-06 11:07:25] Start
-[uDD::Log][2022-07-06 11:07:25] OS Version    : 10.0
-[uDD::Log][2022-07-06 11:07:25] Build Number  : 19044
-[uDD::Log][2022-07-06 11:07:25] Service Pack  : 
-[uDD::Log][2022-07-06 11:07:25] Graphics Card [0] : AMD Radeon(TM) Graphics
-[uDD::Log][2022-07-06 11:07:25]   > Monitor[0] : \\.\DISPLAY1
-[uDD::Log][2022-07-06 11:07:25] Graphics Card [1] : Microsoft Basic Render Driver
-[uDD::Log][2022-07-06 11:07:25] Monitor::Initialized() =>
-[uDD::Log][2022-07-06 11:07:25]     ID    : 0
-[uDD::Log][2022-07-06 11:07:25]     Size  : (1920, 1080)
-[uDD::Log][2022-07-06 11:07:25]     DPI   : (157, 157)
-[uDD::Log][2022-07-06 11:07:25]     Rot   : Landscape
-[uDD::Log][2022-07-06 11:07:25] Duplicator::Initialize() => OK.
-[uDD::Log][2022-07-06 11:08:03] Stop
+[uDD::Log][2022-07-06 12:37:36] Start
+[uDD::Log][2022-07-06 12:37:36] OS Version    : 10.0
+[uDD::Log][2022-07-06 12:37:36] Build Number  : 19044
+[uDD::Log][2022-07-06 12:37:36] Service Pack  : 
+[uDD::Log][2022-07-06 12:37:36] Graphics Card [0] : AMD Radeon(TM) Graphics
+[uDD::Log][2022-07-06 12:37:36]   > Monitor[0] : \\.\DISPLAY1
+[uDD::Log][2022-07-06 12:37:36] Graphics Card [1] : Microsoft Basic Render Driver
+[uDD::Log][2022-07-06 12:37:36] Monitor::Initialized() =>
+[uDD::Log][2022-07-06 12:37:36]     ID    : 0
+[uDD::Log][2022-07-06 12:37:36]     Size  : (1920, 1080)
+[uDD::Log][2022-07-06 12:37:36]     DPI   : (157, 157)
+[uDD::Log][2022-07-06 12:37:36]     Rot   : Landscape
+[uDD::Log][2022-07-06 12:37:36] Duplicator::Initialize() => OK.
+[uDD::Log][2022-07-06 12:38:02] Stop

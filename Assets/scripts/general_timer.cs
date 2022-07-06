@@ -42,14 +42,19 @@ public class general_timer : MonoBehaviour
         gameObject.GetComponent<Image>().enabled = isActive;
         if (wasActive)
         {
+            if (!Directory.Exists(Application.streamingAssetsPath + "/ExperimentLogs/"))
+            {
+                Directory.CreateDirectory(Application.streamingAssetsPath + "/ExperimentLogs/");
+            }
             DateTime current_time = DateTime.Now;
+            string filename = current_time.ToString("dd-MM-yy_HH-mm-ss");
             Scene scene = SceneManager.GetActiveScene();
-            string docName = "ExperimentLogs/" + current_time + ".txt";
+            string docName = Application.streamingAssetsPath + "/ExperimentLogs/exp_" + filename + ".txt";
             if (!File.Exists(docName))
             {
                 File.WriteAllText(docName, "Experiment Results \n");
-                File.WriteAllText(docName, scene.name + "\n");
-                File.WriteAllText(docName, timer + "\n");
+                File.AppendAllText(docName, scene.name + "\n");
+                File.AppendAllText(docName, timer + "\n");
             }
 
         }
