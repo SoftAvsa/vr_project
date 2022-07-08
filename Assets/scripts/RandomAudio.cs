@@ -24,8 +24,9 @@ public class RandomAudio : MonoBehaviour
         if (timer >= randomNumber)
         {
             timer = 0;
-            //play thing
+            // Play audio clip
             this.GetComponent<AudioSource>().Play();
+            // Get new random interval
             randomNumber = Random.Range(min_wait, max_wait);
         }
     }

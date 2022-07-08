@@ -11,10 +11,15 @@ using UnityEngine.SceneManagement;
 public class general_timer : MonoBehaviour
 {
     public InputActionReference toggleReference = null;
+    // Timer activation flag
     public bool isActive = false;
+    // Timer variable
     private float timer = 0;
+    // Previous activation flag
     private bool wasActive = false;
+    // Head tracking flag
     public bool lookAtScreen = false;
+    // Focused time variable
     private float screenTimer = 0;
 
     private void Awake()
@@ -29,9 +34,11 @@ public class general_timer : MonoBehaviour
 
     void Update()
     {
+        // If timer has been activated
         if (isActive)
         {
             timer += Time.deltaTime;
+            // If timer is active and the user is looking at the screen
             if (lookAtScreen)
             {
                 screenTimer += Time.deltaTime;
@@ -39,16 +46,22 @@ public class general_timer : MonoBehaviour
         }
     }
 
+    // Toggle action for the right controller trigger
     private void Toggle(InputAction.CallbackContext context)
     {
+        // Activate/Deactivate timer
         isActive = !isActive;
+        // Enable timer indicator
         gameObject.GetComponent<Image>().enabled = isActive;
+        // If the timer was previously active and was now deactivated
         if (wasActive)
         {
+            // Create directory for results
             if (!Directory.Exists(Application.streamingAssetsPath + "/ExperimentLogs/"))
             {
                 Directory.CreateDirectory(Application.streamingAssetsPath + "/ExperimentLogs/");
             }
+            // Create file with results
             DateTime current_time = DateTime.Now;
             string filename = current_time.ToString("dd-MM-yy_HH-mm-ss");
             Scene scene = SceneManager.GetActiveScene();
@@ -66,6 +79,7 @@ public class general_timer : MonoBehaviour
         wasActive = !wasActive;
     }
 
+    // Set flag for head tracking
     public void SetLookFlag()
     {
         lookAtScreen = true;
