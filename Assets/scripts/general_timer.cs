@@ -53,12 +53,13 @@ public class general_timer : MonoBehaviour
             string filename = current_time.ToString("dd-MM-yy_HH-mm-ss");
             Scene scene = SceneManager.GetActiveScene();
             string docName = Application.streamingAssetsPath + "/ExperimentLogs/exp_" + filename + ".txt";
+            float focusedPercentage = (float)System.Math.Round((screenTimer / timer) * 100, 2);
             if (!File.Exists(docName))
             {
                 File.WriteAllText(docName, "Experiment Results \n");
                 File.AppendAllText(docName, "Scene: " + scene.name + "\n");
                 File.AppendAllText(docName, "Total time: " + timer + "\n");
-                File.AppendAllText(docName, "Focused time: " + screenTimer);
+                File.AppendAllText(docName, "Focused time: " + focusedPercentage + "%");
             }
 
         }
