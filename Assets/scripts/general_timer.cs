@@ -72,6 +72,7 @@ public class general_timer : MonoBehaviour
                 File.WriteAllText(docName, "Experiment Results \n");
                 File.AppendAllText(docName, "Scene: " + scene.name + "\n");
                 File.AppendAllText(docName, "Total time: " + timer + "\n");
+                File.AppendAllText(docName, "Time spent looking at screen: " + screenTimer + "\n");
                 File.AppendAllText(docName, "Focused time: " + focusedPercentage + "%");
             }
 
